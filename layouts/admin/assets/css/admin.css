@@ -1,0 +1,87 @@
+input[type="search"] {
+    border: 1px solid gray;
+    margin-left: 10px;
+}
+
+div#dtBasicExample_paginate a {
+    border: 1px solid gray;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.upload-thumb {
+    position: relative;
+}
+
+.upload-thumb-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-thumb-canvas {
+    position: relative;
+    border: 2px dotted #857bff;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.upload-thumb {
+    position: relative;
+}
+
+.upload-thumb-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-thumb-canvas {
+    position: relative;
+    border: 2px dotted #857bff;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    padding: 2px;
+}
+
+.upload-thumb {
+    position: relative;
+}
+
+.upload-thumb-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-thumb-canvas {
+    position: relative;
+    border: 2px dotted #857bff;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,12 @@
+{
+    "name": "kingnnt/phone-store",
+    "description": "Phone Store",
+    "type": "project",
+    "authors": [
+        {
+            "name": "KingNNT",
+            "email": "Dev.KingNNT@gmail.com"
+        }
+    ],
+    "require": {}
+}

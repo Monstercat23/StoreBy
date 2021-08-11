@@ -1,0 +1,72 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Product Countdown CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+.ywpc-countdown,
+.ywpc-countdown-loop {
+  max-width: 290px;
+  padding: 35px 30px 30px;
+  margin: 0;
+  margin-top: 15px;
+  text-align: left;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.ywpc-countdown > .ywpc-header,
+.ywpc-countdown-loop > .ywpc-header {
+  padding: 0 0 5px;
+}
+.ywpc-countdown > .ywpc-timer > .ywpc-days,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-days,
+.ywpc-countdown > .ywpc-timer > .ywpc-hours,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-hours,
+.ywpc-countdown > .ywpc-timer > .ywpc-minutes,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-minutes,
+.ywpc-countdown > .ywpc-timer > .ywpc-seconds,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-seconds {
+  width: auto;
+  margin: 0 33px 0 0;
+}
+.ywpc-countdown > .ywpc-timer > .ywpc-seconds,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-seconds {
+  margin: 0;
+}
+.ywpc-countdown > .ywpc-timer > div > .ywpc-label,
+.ywpc-countdown-loop > .ywpc-timer > div > .ywpc-label {
+  text-align: center;
+}
+.ywpc-countdown > .ywpc-timer > div > .ywpc-amount > span,
+.ywpc-countdown-loop > .ywpc-timer > div > .ywpc-amount > span {
+  border-width: 0;
+  border-style: solid;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+.ywpc-sale-bar > .ywpc-header {
+  padding: 0 0 5px;
+}
+.ywpc-countdown-loop {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.ywpc-countdown-loop > .ywpc-header {
+  padding: 0;
+  text-align: center;
+}
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-days,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-hours,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-minutes,
+.ywpc-countdown-loop > .ywpc-timer > .ywpc-seconds {
+  margin: 0 15px 0 0;
+}
+.ywpc-countdown-loop > .ywpc-timer > div:last-child {
+  margin: 0;
+}

@@ -1,0 +1,78 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Responsive Design Yith WooCommerce Ajax Search CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /*	Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /* Phone Monitor
+	/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 1024px) {
+  .cmsmasters_header_search_form .yith-ajaxsearchform-container {
+    max-width: 90%;
+    width: 800px;
+    height: 100px;
+    margin: auto !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+  }
+  .cmsmasters_header_search_form .yith-ajaxsearchform-container .yith-ajaxsearchform-select {
+    float: none;
+    display: inline-block;
+  }
+  .cmsmasters_header_search_form .yith-ajaxsearchform-container .yith-ajaxsearchform-select select {
+    background: transparent;
+    background-image: url(../../img/select-search-mob.png);
+    background-position: 85% center;
+    background-repeat: no-repeat;
+  }
+  .cmsmasters_header_search_form .yith-ajaxsearchform-container .yith-ajaxsearchform-select .search_categories {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-left-width: 1px;
+    border-left-style: solid;
+  }
+  .cmsmasters_header_search_form .yith-ajaxsearchform-container .yith-s {
+    background-position: center center !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cmsmasters_header_search_form .search-navigation_wrap {
+    height: 70px;
+  }
+  .cmsmasters_header_search_form .search-navigation_wrap input:not([type=button]):not([type=checkbox]):not([type=file]):not([type=hidden]):not([type=image]):not([type=radio]):not([type=reset]):not([type=submit]):not([type=color]):not([type=range]) {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .cmsmasters_header_search_form .search-navigation_wrap {
+    height: 50px;
+  }
+  .cmsmasters_header_search_form .search-navigation_wrap input:not([type=button]):not([type=checkbox]):not([type=file]):not([type=hidden]):not([type=image]):not([type=radio]):not([type=reset]):not([type=submit]):not([type=color]):not([type=range]) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #yith-ajaxsearchform select,
+  .yith-ajaxsearchform_form select {
+    width: 100%;
+  }
+  .cmsmasters_header_search_form .yith-ajaxsearchform-select .yit_wcas_post_type {
+    margin-left: 0;
+  }
+}

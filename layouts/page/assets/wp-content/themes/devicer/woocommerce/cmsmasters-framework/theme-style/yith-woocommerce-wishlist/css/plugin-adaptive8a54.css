@@ -1,0 +1,224 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Responsive Design Yith WooCommerce Wishlist CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /*	1.	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	2. Phone Monitor
+	/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 768px) {
+  html {
+    /***************** Free Version - Wishlist Table ******************/
+    /***************** Premium Version - Wishlist Table ******************/
+    /***************** Premium Version - Manage Wishlist ******************/
+  }
+  html .cmsmasters_wishlist_wrap {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px 20px;
+    float: none;
+  }
+  html .cmsmasters_wishlist_wrap .cmsmasters_wishlist_button {
+    height: 20px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table {
+    border-width: 0;
+    border-style: solid;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tbody {
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-width: 0;
+    border-bottom-style: solid;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tbody tr {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tfoot {
+    display: block;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr {
+    position: relative;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td {
+    text-align: center;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td:first-child,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td:last-child {
+    border-width: 0;
+    border-style: solid;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-remove {
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+    left: auto;
+    right: 2px;
+    top: 5px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-thumbnail {
+    padding: 15px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-price,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-stock-status {
+    display: inline-block;
+    width: 50%;
+    margin: 0 -2px;
+    padding: 15px;
+    vertical-align: middle;
+    border-width: 0;
+    border-style: solid;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-price {
+    text-align: right;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-stock-status {
+    text-align: left;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart .dateadded {
+    padding: 0 0 10px 0;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + a.button {
+    float: none;
+    display: inline-block !important;
+    width: auto;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart .variations_form {
+    text-align: center;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart .variations {
+    display: inline-block;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart .variations + .variations {
+    margin-left: 10px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-checkbox {
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    right: auto;
+    top: 7px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + a.button,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + select + a.selectBox,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a.selectBox + a.button {
+    float: none;
+    display: inline-block !important;
+    width: auto;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + select + a.selectBox {
+    width: auto !important;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > .dateadded + select + a.selectBox,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > select:first-child + a.selectBox {
+    width: auto !important;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > .dateadded + select + a.selectBox + a.button,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > select:first-child + a.selectBox + a.button {
+    width: auto;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-thumbnail a img {
+    width: 120px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tfoot td .custom-add-to-cart-button-cotaniner {
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tbody tr {
+    font-size: 0;
+    line-height: 0;
+    padding: 10px 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tbody tr:first-child {
+    display: none;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tbody tr td {
+    display: inline-block;
+    width: 33.33%;
+    vertical-align: middle;
+    text-align: center;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tbody tr td a.selectBox {
+    margin: 0;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tfoot {
+    display: block;
+  }
+}
+@media only screen and (max-width: 540px) {
+  html {
+    /***************** Free Version - Single Product Quick View ******************/
+    /***************** Premium Version - Wishlist Table ******************/
+    /***************** Premium Version - Manage Wishlist ******************/
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a + a.button {
+    width: 100%;
+    margin: 0;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tbody td.product-add-to-cart > a + a.button {
+    margin: 15px 0 0;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tfoot tr td .ask-an-estimate-button-container,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tfoot tr td .yith-wcwl-share {
+    float: none;
+    text-align: center;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + a.button,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + select + a.selectBox,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a.selectBox + a.button {
+    float: none;
+    display: inline-block !important;
+    width: 100%;
+    margin: 0 0 15px;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a:last-child,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + a.button:last-child,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + select + a.selectBox:last-child,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a.selectBox + a.button:last-child {
+    margin: 0;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > a + select + a.selectBox {
+    width: 100% !important;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > .dateadded + select + a.selectBox,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > select:first-child + a.selectBox {
+    width: 100% !important;
+  }
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > .dateadded + select + a.selectBox + a.button,
+  html #yith-wcwl-form.woocommerce table.wishlist_table tr td.product-add-to-cart > select:first-child + a.selectBox + a.button {
+    width: 100%;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tbody tr td {
+    width: 100%;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tfoot td {
+    text-align: center;
+  }
+  html #yith-wcwl-form .wishlist_manage_table tfoot td > .button,
+  html #yith-wcwl-form .wishlist_manage_table tfoot td > button,
+  html #yith-wcwl-form .wishlist_manage_table tfoot td .button + button {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+}

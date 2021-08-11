@@ -1,0 +1,9 @@
+/.vscode
+
+#Composer
+composer.phar
+/vendor/
+
+#npm
+/node_modules/
+*.log

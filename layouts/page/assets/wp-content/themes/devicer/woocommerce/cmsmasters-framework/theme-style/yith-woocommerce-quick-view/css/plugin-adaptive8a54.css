@@ -1,0 +1,151 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Responsive Design Yith WooCommerce Quick View CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+@media only screen {
+  /*-------------------------------------------------------------------------*/
+  /*	Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Tablet Monitor 600
+	/*-------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------*/
+  /*	Phone Monitor
+	/*-------------------------------------------------------------------------*/
+}
+@media only screen and (max-width: 768px) {
+  html {
+    /***************** Free Version - Single Product Quick View ******************/
+    /***************** Premium Version - Single Product Quick View ******************/
+  }
+  html #yith-quick-view-modal .single-product div.summary .product_meta > span .cmsmasters_product_meta_title {
+    width: auto;
+  }
+  html #yith-quick-view-modal.open .yith-wcqv-wrapper {
+    min-height: 90%;
+  }
+  html .woocommerce .products .product:nth-child(2n),
+  html .woocommerce-page .products .product:nth-child(2n) {
+    float: left;
+  }
+  html .yith-quick-view.slide-in .single-product,
+  html .yith-quick-view.fade-in .single-product,
+  html .yith-quick-view.scale-up .single-product {
+    overflow-y: hidden;
+  }
+  html .yith-quick-view.slide-in .single-product div.summary .product_meta > span .cmsmasters_product_meta_title,
+  html .yith-quick-view.fade-in .single-product div.summary .product_meta > span .cmsmasters_product_meta_title,
+  html .yith-quick-view.scale-up .single-product div.summary .product_meta > span .cmsmasters_product_meta_title {
+    width: auto;
+  }
+  html div.pp_woocommerce {
+    width: 100% !important;
+    left: auto !important;
+    right: auto !important;
+  }
+  html #yith-quick-view-modal .single-product div.summary .cart {
+    text-align: center;
+  }
+  html #yith-quick-view-modal .single-product div.summary .cart .quantity {
+    margin-bottom: 10px;
+  }
+  html #yith-quick-view-modal .single-product div.summary .cart .single_add_to_cart_button {
+    display: block;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    /***************** Premium Version - Single Product Quick View ******************/
+  }
+  html .yith-quick-view.slide-in .yith-wcqv-wrapper .yith-wcqv-main,
+  html .yith-quick-view.fade-in .yith-wcqv-wrapper .yith-wcqv-main,
+  html .yith-quick-view.scale-up .yith-wcqv-wrapper .yith-wcqv-main {
+    padding: 60px 0 20px;
+  }
+  html .yith-quick-view.slide-in .single-product,
+  html .yith-quick-view.fade-in .single-product,
+  html .yith-quick-view.scale-up .single-product {
+    padding: 0 20px;
+    overflow-y: scroll;
+  }
+  html .yith-quick-view.slide-in .single-product > .product > .product > div.images,
+  html .yith-quick-view.fade-in .single-product > .product > .product > div.images,
+  html .yith-quick-view.scale-up .single-product > .product > .product > div.images,
+  html .yith-quick-view.slide-in .single-product > .product > .product > div.summary,
+  html .yith-quick-view.fade-in .single-product > .product > .product > div.summary,
+  html .yith-quick-view.scale-up .single-product > .product > .product > div.summary {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  html .yith-quick-view.slide-in .single-product > .product > .product > div.images,
+  html .yith-quick-view.fade-in .single-product > .product > .product > div.images,
+  html .yith-quick-view.scale-up .single-product > .product > .product > div.images {
+    margin: 0 0 40px;
+    padding: 0;
+  }
+  html .yith-quick-view.slide-in .single-product > .product > .product > div.summary,
+  html .yith-quick-view.fade-in .single-product > .product > .product > div.summary,
+  html .yith-quick-view.scale-up .single-product > .product > .product > div.summary {
+    width: 100% !important;
+    height: auto;
+    max-height: none;
+  }
+  html .yith-quick-view.slide-in .single-product > .product > .product > div.summary .cmsmasters_product_title_wrap,
+  html .yith-quick-view.fade-in .single-product > .product > .product > div.summary .cmsmasters_product_title_wrap,
+  html .yith-quick-view.scale-up .single-product > .product > .product > div.summary .cmsmasters_product_title_wrap {
+    padding-right: 0;
+  }
+  html .yith-quick-view.slide-in .single-product > .product > .product > div.summary .cmsmasters_product_info_wrap,
+  html .yith-quick-view.fade-in .single-product > .product > .product > div.summary .cmsmasters_product_info_wrap,
+  html .yith-quick-view.scale-up .single-product > .product > .product > div.summary .cmsmasters_product_info_wrap {
+    float: none;
+    text-align: left;
+  }
+  html .yith-quick-view.slide-in .single-product > .product > .product > div.summary .cmsmasters_star_rating,
+  html .yith-quick-view.fade-in .single-product > .product > .product > div.summary .cmsmasters_star_rating,
+  html .yith-quick-view.scale-up .single-product > .product > .product > div.summary .cmsmasters_star_rating {
+    float: right;
+  }
+}
+@media only screen and (max-width: 540px) {
+  html {
+    /***************** Free Version - Single Product Quick View ******************/
+  }
+  html #yith-quick-view-modal .single-product > .product > .product > div.images,
+  html #yith-quick-view-modal .single-product > .product > .product > div.summary {
+    float: none;
+    width: 100%;
+  }
+  html #yith-quick-view-modal .single-product > .product > .product > div.images {
+    margin: 0 0 40px;
+    padding: 0;
+  }
+  html #yith-quick-view-modal .single-product div.summary .product_meta_title {
+    min-width: auto;
+  }
+  html #yith-quick-view-modal .single-product div.summary .product_meta > span {
+    text-align: center;
+  }
+  html .yith-quick-view.yith-inline .yith-wcqv-wrapper .yith-wcqv-main {
+    padding: 40px 0 0;
+  }
+  html .yith-quick-view.yith-inline .yith-wcqv-wrapper .yith-wcqv-main .yith-wcqv-head .yith-quick-view-close {
+    top: 40px;
+  }
+  html .yith-quick-view.yith-inline .single-product > .product > .product > div.images,
+  html .yith-quick-view.yith-inline .single-product > .product > .product > div.summary {
+    float: none;
+    width: 100%;
+  }
+  html .yith-quick-view.yith-inline .single-product > .product > .product > div.images {
+    margin: 0 0 40px;
+    padding: 0;
+  }
+}

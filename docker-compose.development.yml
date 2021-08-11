@@ -1,0 +1,53 @@
+version: "3.8"
+
+networks:
+  app_network:
+    driver: bridge
+
+services:
+  nginx:
+    container_name: ${APP_NAME}_nginx
+    hostname: nginx
+    image: nginx:1.19.7-alpine
+    working_dir: /var/www
+    ports:
+      - 8081:80
+    volumes:
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+      - .:/var/www/public/
+    networks:
+      - app_network
+
+  php:
+    container_name: ${APP_NAME}_php
+    hostname: php
+    build:
+      context: .
+      dockerfile: ./docker/php/dockerfile.development
+    volumes:
+      # - ./docker/php/config/php.ini:/usr/local/etc/php/php.ini
+      - .:/var/www/public
+    networks:
+      - app_network
+
+  mysql:
+    container_name: ${APP_NAME}_mysql
+    hostname: mysql
+    image: mysql:8.0.23
+    networks:
+      - app_network
+    ports:
+      - ${DB_PORT}:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8888:80
+    environment:
+      - PMA_ARBITRARY=1

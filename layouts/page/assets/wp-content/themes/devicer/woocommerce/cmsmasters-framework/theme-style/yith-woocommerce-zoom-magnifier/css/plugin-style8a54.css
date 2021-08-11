@@ -1,0 +1,135 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Devicer
+ * @version 	1.0.0
+ * 
+ * Yith WooCommerce Zoom Magnifier CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+/* -------------------------------- Start Yith WooCommerce Zoom Magnifier Styles -------------------------------- */
+/*-------------------------------------------------------------------------*/
+/*  Single Product */
+/*-------------------------------------------------------------------------*/
+/***************** Single Product Thumbnail Slider ******************/
+html span.onsale {
+  z-index: 1;
+}
+.cmsmasters_product_left_column .thumbnails.slider {
+  margin: 0 -5px;
+}
+.cmsmasters_product_left_column .caroufredsel_wrapper {
+  height: auto !important;
+  position: relative;
+}
+.cmsmasters_product_left_column .yith_magnifier_gallery {
+  height: auto !important;
+  position: relative !important;
+}
+.cmsmasters_product_left_column .yith_magnifier_gallery li {
+  margin: 10px 5px 0;
+  padding: 0;
+  max-width: 70px;
+}
+.cmsmasters_product_left_column .yith_magnifier_gallery li.last {
+  margin: 10px 5px 0;
+}
+.cmsmasters_product_left_column .yith_magnifier_gallery li:before {
+  content: none;
+}
+.cmsmasters_product_left_column .yith_magnifier_gallery li a {
+  margin: 0;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.cmsmasters_product_left_column .yith_magnifier_zoom_magnifier {
+  border-width: 0;
+  border-style: solid;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.cmsmasters_product_left_column .images {
+  text-align: center;
+}
+.cmsmasters_product_left_column .images.right .yith_magnifier_zoom_magnifier {
+  margin: 0 0 0 60px;
+}
+.cmsmasters_product_left_column .images .yith_magnifier_zoom_wrap {
+  text-align: center;
+}
+.cmsmasters_product_left_column .images .yith_magnifier_zoom_wrap a {
+  width: 100%;
+}
+.yith_magnifier_zoom {
+  display: inline-block !important;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+/***************** Single Product Thumbnail Slider Button ******************/
+.single-product.woocommerce .cmsmasters_single_product .thumbnails {
+  overflow: hidden;
+}
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev,
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next {
+  font-size: 20px;
+  display: block !important;
+  background-image: none;
+  width: 22px;
+  height: 43px;
+  margin: auto !important;
+  top: 10px;
+  bottom: 0;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  opacity: 0;
+}
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev:before,
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next:before {
+  font-family: 'fontello';
+  line-height: 1em;
+  width: 1em;
+  height: 1em;
+  margin: auto !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev {
+  left: 5px;
+  right: auto;
+}
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev:before {
+  content: '\eb21';
+}
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next {
+  left: auto;
+  right: 5px;
+}
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next:before {
+  content: '\eb22';
+}
+.single-product.woocommerce .cmsmasters_single_product .thumbnails:hover #slider-prev,
+.single-product.woocommerce .cmsmasters_single_product .thumbnails:hover #slider-next {
+  opacity: 1;
+}
+/*-------------------------------------------------------------------------*/
+/*	CSS3 Animations	*/
+/*-------------------------------------------------------------------------*/
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-prev,
+.single-product.woocommerce .cmsmasters_single_product .thumbnails #slider-next {
+  -webkit-transition: color .3s ease-in-out, opacity .3s ease-in-out;
+  -moz-transition: color .3s ease-in-out, opacity .3s ease-in-out;
+  -ms-transition: color .3s ease-in-out, opacity .3s ease-in-out;
+  -o-transition: color .3s ease-in-out, opacity .3s ease-in-out;
+  transition: color .3s ease-in-out, opacity .3s ease-in-out;
+}
